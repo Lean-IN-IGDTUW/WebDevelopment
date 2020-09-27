@@ -1,0 +1,170 @@
+/* CSS is the language we use to style an HTML document.
+
+CSS describes how HTML elements should be displayed.
+
+There are three ways of inserting a style sheet:
+
+1) External CSS
+2) Internal CSS
+3) Inline CSS */
+
+/* External CSS
+
+<head>
+    <link rel="stylesheet" href="myCssFileName.css" type="text/css">
+</head>
+
+//rel defines a relationship between the file to which we are adding and the file whos link is given!
+//The href attribute specifies the URL of the page the link goes to.
+//save using .css 
+
+//type is optional , it works well without writing it. 
+
+The type attribute identifies the content between the <style> and </style> tags.
+The default value is "text/css", which indicates that the content is CSS. */
+
+/* 
+Internal CSS
+
+<head>
+    <style>
+        content of css
+    </style>
+</head>  */
+
+/* 
+Inline CSS
+
+Inline styles are defined within the "style" attribute of the relevant element:
+<p style="color:red;">This is a paragraph.</p> */
+
+/*  
+CSS Syntax
+A CSS rule-set consists of a selector and a declaration block: */
+
+/* 
+Example 1:
+h1{
+    color: blue;
+}
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks 
+are surrounded by curly braces.  */
+/* 
+Example 2: 
+h1{
+    color:blue;
+    font-size:12px;
+}  */
+
+/*
+CSS Selectors:
+CSS selectors are used to "find" (or select) the HTML elements you want to style. */
+
+/*
+1) CSS Element selector (selects on basis of element name)
+p {
+    text-align: center;
+    color: red;
+} 
+*/
+
+/*
+2) CSS id selector (selects on basis of id)
+
+The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+Example:
+<p id="para1">bahajj</p>
+
+#para1 {
+    text-align: center;
+    color: red;
+} 
+
+*/
+
+
+/*
+3) CSS class selector (selects on basis of class)
+
+
+The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+Example:
+
+<section class="center"></section>
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+
+For each element we can have multiple classes also.Those are then modified on basis of multiple class names
+
+<p class="center large">This paragraph refers to two classes.</p> */
+
+
+/*
+4) CSS Universal selector
+The universal selector (*) selects all HTML elements on the page.
+
+Example:
+* {
+    text-align: center;
+    color: blue;
+  } */
+
+/*
+5) CSS Grouping selector
+The grouping selector selects all the HTML elements with the same style definitions.
+
+Example:
+h1, h2, p {
+    text-align: center;
+    color: red;
+  } */
+
+/* 
+#para1{
+    text-align:center !important;
+}
+
+#para1{
+    text-align: left;
+} */
+
+/* 
+
+
+//Another fact
+    !important ; */
+
+/*
+Block and Inline elements
+
+Block-level Elements:
+A block-level element alwaysstarts on a new line and takes up the full width available (stretches out to the left 
+and right as far as it can).
+example: <h1>-----<h6>,<div>, <section>, <main>, <nav>, <footer>, <article>  etc. 
+
+
+Inline Elements:
+An inline element does not start on a new line and it only takes up as much width as necessary.
+example: 
+This is a <span> element inside a paragraph.
+<strong>, <button>, <img> etc. */
+
+
