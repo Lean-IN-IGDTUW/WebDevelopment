@@ -1,0 +1,74 @@
+/*First apply properties to entire body*/
+
+*{ /*Universal Selector*/
+    margin:0; 
+    padding:0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.outer-container{
+    height:100vh; /*VH viewport height 100 vh - 100% of the viewport height*/
+    width:100%;  
+    background-color:#FCF6EF;
+    background-position:center;
+    background-size:cover; 
+    box-sizing:border-box; /*Important*/
+    position:relative; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.inner-container{
+    height:80vh;
+    width:80vw;
+    background-color:#BDDBE3;
+    background-position: center;
+    background-size:cover;
+    box-sizing: border-box;
+    position: relative;
+    border-radius:24px;
+}
+
+
+.logo-image{
+    height:50px;
+    margin-left:2vw;
+    margin-top:2vh;
+}
+
+nav{
+    display: flex;
+    padding-left:60px;
+}
+
+.navbar{
+  width:100%;
+  margin:auto;
+  height:15vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+    display:inline-block; 
+    list-style:none; /*bullets remove*/
+    margin:0px 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black
+}
+
+.navbar-button{
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    height:30px;
+    width:100px;
+    margin-top:0px;
+    cursor: pointer;
+    margin-right:10px;
+}
