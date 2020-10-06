@@ -1,0 +1,112 @@
+header{
+	background-color: #A0A0A0; 
+	background-image: url("images/fywheel.jpg");
+	background-size: cover;
+	padding: 2%;
+}
+
+body{
+	padding: 1%;
+	margin: 1%;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 130%;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1%
+}
+
+h2{
+	color: #000000;
+}
+
+section{
+	background-color: #FFFFFF;
+}
+
+nav a{
+	display: inline-block;
+	text-align: center;
+	width: 5%;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: rgb(200,200,200,0.5);
+	color: #000000;
+	margin: 0% 8%;
+	padding: 1%;
+}
+
+img{
+	border: 3px solid #000000;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+
+.active {
+	background-color: #FFFFFF;
+
+}
+
+.left {
+	display: inline-block;
+	padding: 3% 1%;
+	width: 20%;
+	float: left;
+	background-color: #787638;
+}
+
+.right{
+	display: inline-block;
+	float: left;
+	width: 70%;
+	margin-left: 1%;
+}
+
+table{
+	font-family: Menlo;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+th{
+	background-image: linear-gradient(rgba(34,193,195,1), rgba(253,187,45,1));
+	border-top: 2px solid #0000FF;
+	border-right: 2px solid #0000FF;
+	border-bottom: 4px solid #0000FF;
+	border-left: 2px solid #0000FF;
+	border-radius: 5px 5px 0 0;
+}
+
+/* The additional property for table headings is that the text color changes when the heading is hovered over */
+
+th:hover{
+	color: #FFFFFF;
+}
+
+tr{
+	opacity: 0.8;
+	text-align: center;
+}
+
+tr td:first-child, tr th:first-child{
+	text-align: left;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+td{
+	padding: 0.5%;
+	background-color: #FFFF00;
+	color: #0000FF;
+	border-radius: 2px;
+	text-shadow: 0.5px 0.5px #0000FF;
+}
