@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>The Intelligent Quiz!</h1>
+    <br>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>Question 1: Which of the following is the proper declaration of a pointer?</p>
+            <p><label><input type="radio" name="question1" value="A">int x;</label></p>
+            <p><label><input type="radio" name="question1" value="B">int &x;</label></p>
+            <p><label><input type="radio" name="question1" value="C">int *x;</label></p>
+            <p><label><input type="radio" name="question1" value="D">ptr x;</label></p>
+        </div>
+        <br>
+        <div>
+            <p>Question 2: Which of the following gives the memory address of integer variable a?</p>
+            <p><label><input type="radio" name="question2" value="1">*a;</label></p>
+            <p><label><input type="radio" name="question2" value="2">a;</label></p>
+            <p><label><input type="radio" name="question2" value="3">&a;</label></p>
+            <p><label><input type="radio" name="question2" value="4">address(a);</label></p>
+        </div>
+        <input type="button" name="" value="Check My Answers!" id="button" onclick="check()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>

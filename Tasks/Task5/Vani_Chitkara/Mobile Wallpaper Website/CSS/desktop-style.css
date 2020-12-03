@@ -1,0 +1,78 @@
+/*
+  * General Styles
+ */
+
+body {
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+}
+
+/* Container Styles */
+.container {
+    width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+/* Head Image Styles */
+.head-image {
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Wallpaper-Style */
+.wallpapers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-image {
+    padding: 5px;
+    width: 328px;
+}
+
+button {
+    display: inline-block;
+    background-color: #363843;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wallpaper-item {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
