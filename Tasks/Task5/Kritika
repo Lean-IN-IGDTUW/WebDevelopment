@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/desktop-style.css"/>
+    <link rel="stylesheet" type="text.css" href="CSS/mobile-dtyle.css" media="(max-width:630px)"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+   
+    <title>Kakashi Hatake</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+     <header>
+            <img src="https://wallpapercave.com/wp/DuJYS2V.jpg" class="hero-image"/>
+      </header>
+
+       <section class="main-content">
+           <div class="title"> 
+               <h1>Ash Ketchum </h1>
+               <p>Ash Ketchum is the main protagonist of the Pokémon Anime series. He is eternally a 10-year-old Pokémon 
+                   Trainer from Pallet Town in the Kanto region that has always dreamed of becoming the world's greatest Pokémon Master.
+                    Being the first human character to be introduced in the series, he is the winner of the Orange League and also the
+                     Alola region's Champion, receiving the title after winning its first Pokémon League Conference.
+
+                As soon as he turned 10 years old, Ash rushed to Professor Oak's Laboratory to get his first Pokémon. 
+                Originally wanting to choose Squirtle, Ash ended up receiving the Pokémon Pikachu instead, as he arrived late 
+                (thus leaving him with no other Starters to choose from). At first, Pikachu did not obey Ash and kept running away, 
+                so Ash had to tie him up. After getting chased by a flock of Spearow later in the day thanks to Ash's recklessness,
+                 Ash attempted to save Pikachu from them. Seeing that Ash was so determined to help him, Pikachu protected Ash from 
+                 the Spearow by electrocuting the entire flock (which was thanks to being struck by lightning at that exact moment and having
+                  his Electric-type move supercharged). From then on, Pikachu and Ash became best friends.While Ash was traveling, he was constantly
+                   pursued by Team Rocket's Jessie, James, and Meowth, who wanted his Pikachu. They chased him across all the regions so far, and are 
+                   still chasing them to this day. Team Rocket never managed to capture Pikachu though, due to Ash's other Pokémon and friends helping 
+                   him.
+               </p>
+
+             <blockquote> <p>“There’s no sense in going out of your way to get somebody to like you.” </p>
+                   <br/>
+                   – Ash Ketchum
+             </blockquote>
+               <h4>download the wallpaper here.</h4>
+            </div>
+       </section>
+
+
+       <section class="wallpapers">
+           <div class="row">
+                   <div class="wallpaper-item">
+                            <img src="https://wallpapercave.com/wp/wp3133683.png"  class="row-image" />
+
+                         <button><a href="Assets/wallpaper-1.jpeg" download >Download</a>
+                         </button>
+                   </div>
+
+                 <div class="wallpaper-item">
+                     <img src="https://wallpapercave.com/wp/wp7539469.jpg"  class="row-image" />
+ 
+                     <button>
+                        <a href="Assets/wallpaper-2.jpeg" download >Download</a>
+                     </button>
+                  </div>
+
+                  <div class="wallpaper-item">
+                     <img src="https://wallpapercave.com/wp/wp5376650.jpg"  class="row-image" />
+ 
+                     <button><a href="Assets/wallpaper-3.jpeg" download >Download</a>
+                      </button>
+                  </div>
+            </div>
+            
+
+
+
+                 <div class="row">
+                      <div class="wallpaper-item">
+                        <img src="https://wallpapercave.com/wp/wp4034397.jpg"  class="row-image" />
+     
+                         <button>
+                             <a href="Assets/wallpaper-4.jpeg" download >Download</a>
+                         </button>
+                     </div>
+
+                       <div class="wallpaper-item">
+                          <img src="https://wallpapercave.com/wp/wp7539609.jpg"  class="row-image" />
+      
+                         <button><a href="Assets/wallpaper-5.jpeg" download >Download</a>
+                          </button>
+                       </div>
+
+                       <div class="wallpaper-item">
+                         <img src="https://images3.alphacoders.com/662/thumb-350-662120.png"  class="row-image" />
+      
+                         <button><a href="Assets/wallpaper-6.jpeg" download >Download</a>
+                          </button>
+                       </div>
+                    </div>
+                 
+                
+            <!--row-->
+       </section>
+       <!--wallpapers-->
+       
+       
+    </div>
+  <!--contaianer-->
+</body>
+</html>
