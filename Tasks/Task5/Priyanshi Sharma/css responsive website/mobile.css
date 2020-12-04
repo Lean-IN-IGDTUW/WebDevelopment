@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    margin: 100px auto;
+    background: #ffffff;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+.tj-img{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+
+}
+h1{font-size: 20px;}
+.row-img{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+
+}
+.row{
+    flex-direction: column;
+}
