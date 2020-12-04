@@ -52,8 +52,10 @@ p{
 
 .row{
     display:flex;
-    flex-direction: column;
-    flexbox:column;
+    flex-direction: row;
+
+    
+  
 }
 
 .row-image{
@@ -79,22 +81,4 @@ button{
 a{
     text-decoration: none;
     color: rgb(224, 245, 248);
-}
-
-
-
-/* container styles*/
-
-.container{
-    width: 100%;
-    margin:100px auto;
-    background: #fff;
-    border:1px transparent;
-    border-radius: 20px;
-}
-
-.hero-image{
-width:100%;
-    text-align:center;
-    border-radius:20px 20px 0 0;
 }
