@@ -1,0 +1,84 @@
+ /*
+general style
+*/
+body{
+    font-family: "Open Sans",arial,sans-serif;
+
+}
+* {
+    -moz-box-sizing: border-box;/*firefox*/
+    -webkit-box-sizing:border-box;/*Safari chrome ios*/
+
+    box-sizing: border-box; /*IE*/
+
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+}
+ 
+/* Hero Style*/
+
+ 
+/*wallpapers-style*/
+
+.wallpapers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    flex-direction: column;
+
+    
+  
+}
+
+.row-image{
+    padding:5px;
+    width:328px;
+  
+}
+
+button{
+    display: inline-block;
+    background-color: olive;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wallpaper-item{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(224, 245, 248);
+}
+.container{
+    width: 100%;
+    margin:100px auto;
+    background: #fff;
+    border:1px transparent;
+    border-radius: 20px;
+}
+
+.hero-image{
+width:100%;
+    text-align:center;
+    border-radius:20px 20px 0 0;
+}
