@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz Format 1</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+    <div class= "score">
+        <span id="user-score">0</span>
+        <span id="total-score">/3</span>
+    </div>
+ <div class="content" id="question-area">
+     <div id="question-text">Question Text</div>
+     <div class="options">
+         <button class="btn btn-option" id="True">True</button>
+         <button class="btn btn-option" id="False">False</button>
+     </div>
+ </div>
+ <div class="controls">
+     <button class="btn btn-restart" id="restart">Restart</button>
+     <button class="btn btn-prev" id="prev">Prev</button>
+     <button class="btn btn-next" id="next">Next</button>
+     <button class="btn btn-submit" id="submit">Submit</button>
+ </div>
+    </div>
+
+    <script>
+        const restartBtn= document.getElementById('restart');
+        const prevBtn= document.getElementById('prev');
+        const nextBtn= document.getElementById('next');
+        const submitBtn= document.getElementById('submit');
+        const trueBtn= document.getElementById('True');
+        const falseBtn= document.getElementById('False');
+        const userScore= document.getElementById('user-score');
+        const questionText= document.getElementById('question-text');
+
+        let currentQuestion=0;
+        var score=0;
+
+        let questions=[
+            {
+                question:"Competitive art used to be in the Olympics",
+                answers: [
+                    {option:"Don't think so",answer:false },
+                    {option:"Hell yes!",answer:true }
+                    ]
+            },
+            {
+                question:"You can't buy Coca-Cola in...",
+                answers:[
+                {option:"South-Korea",answer:false },
+                {option:"North-Korea",answer:true },
+                ]
+            },
+            {
+                question:"The country that doesn't use metric-system",
+                answers:[
+                {option:"United States",answer:true },
+                {option:"China",answer:false },
+                ]
+            }
+
+                ]
+            restartBtn.addEventListener('click',restart);
+            prevBtn.addEventListener('click',prev);
+            nextBtn.addEventListener('click',next);
+            submitBtn.addEventListener('click',submit);
+
+            function beginQuiz(){
+                currentQuestion =0;
+                questionText.innerHTML = questions[currentQuestion].question;
+                trueBtn.innerHTML = questions[currentQuestion].answers[0].option;
+                trueBtn.onclick= ()=> {
+                    let ano=0;
+                    if(questions[currentQuestion].answers[ano].answer){
+                        if(score<3){
+                            score++;
+                        }
+                    }
+                    userScore.innerHTML = score;
+                    if(currentQuestion<2){
+                        next();
+                    }
+                }
+                falseBtn.innerHTML = questions[currentQuestion].answers[1].option;
+                falseBtn.onclick = () =>{
+                    let ano=1;
+                    if(questions[currentQuestion].answers[ano].answer){
+                        if(score<3){
+                            score++;
+                        }
+
+                    }
+                    userScore.innerHTML = score;
+                    if(currentQuestion<2){
+                        next();
+                    }
+                }
+                prevBtn.classList.add('hide');
+            }
+            beginQuiz();
+
+            function restart(){
+                currentQuestion = 0;
+                prevBtn.classList.remove('hide');
+                nextBtn.classList.remove('hide');
+                submitBtn.classList.remove('hide');
+                trueBtn.classList.remove('hide');
+                falseBtn.classList.remove('hide');
+                score = 0;
+                userScore.innerHTML = score;
+                beginQuiz();
+            } 
+
+        function next(){
+            currentQuestion++;
+            if(currentQuestion>=2){
+                nextBtn.classList.add('hide');
+                prevBtn.classList.remove('hide');
+            }
+            questionText.innerHTML = questions[currentQuestion].question;
+            trueBtn.innerHTML = questions[currentQuestion].answers[0].option;
+            trueBtn.onclick = () => {
+               let ano=0;
+               if(questions[currentQuestion].answers[ano].answer){
+                   if(score<3){
+                       score++;
+                   }
+               }
+               userScore.innerHTML=score;
+               if(currentQuestion<2){
+                   next();
+               }
+            }
+            falseBtn.innerHTML = questions[currentQuestion].answers[1].option;
+            falseBtn.onclick = () => {
+                let ano = 1;
+                if(questions[currentQuestion].answers[ano].answer){
+                   if(score<3){
+                       score++;
+            }
+        }
+        userScore.innerHTML = score;
+        if(currentQuestion<2){
+            next();
+        }
+            }
+            prevBtn.classList.remove('hide');
+        }
+        function prev(){
+            currentQuestion--;
+            if(currentQuestion<=0){
+                prevBtn.classList.add('hide');
+                nextBtn.classList.remove('hide');
+            }
+            questionText.innerHTML = questions[currentQuestion].question;
+            trueBtn.innerHTML = questions[currentQuestion].answers[0].option;
+            trueBtn.onclick = () => {
+                let ano = 0;
+                if(questions[currentQuestion].answers[ano].answer){
+                   if(score<3){
+                       score++;
+        }  
+                }
+        
+        userScore.innerHTML = score;
+        if(currentQuestion<2){
+            next();
+        }
+            }
+            falseBtn.innerHTML = questions[currentQuestion].answers[1].option;
+            falseBtn.onclick = () => {
+                let ano = 1;
+                if(questions[currentQuestion].answers[ano].answer){
+                   if(score<3){
+                       score++;
+            }
+        }
+        userScore.innerHTML = score;
+        if(currentQuestion<2){
+            next();
+        }
+            }
+            nextBtn.classList.remove('hide');
+        }
+
+        function submit(){
+            prevBtn.classList.add('hide');
+            nextBtn.classList.add('hide');
+            submitBtn.classList.add('hide');
+            trueBtn.classList.add('hide');
+            falseBtn.classList.add('hide');
+            questionText.innerHTML = "Congratulations on submitting the quiz!";
+        }
+    </script>
+</body>
+</html>
