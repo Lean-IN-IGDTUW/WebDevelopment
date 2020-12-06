@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz-1</title>
+    <link rel="stylesheet" href="style.css" type="text/css">   
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="heading">
+        <h1 class="head">
+            Quiz Time!!!!
+        </h1>
+    </div>
+    <div>
+        <span id="anim" class="xyz"></span>
+    </div>
+    <div class="container">
+        <div class="score">
+            <span class="score" id="user_score">0</span>
+            <span class="score" id="total_score">/3</span>
+        </div>
+        <div class="content">
+            <div class="ques" id="ques">
+                
+            </div>
+            <div class="options">
+                <button class="btn" id="option1">option1</button>
+                <button class="btn" id="option2">option2</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="btn" id="restart">restart</button>
+            <button class="btn" id="previous">previous</button>
+            <button class="btn" id="next">next</button>
+            <button class="btn" id="submit">submit</button>
+        </div>
+    </div>
+</body>
+<script>
+
+    const restart_btn = document.getElementById("restart");
+    const previous_btn = document.getElementById("previous");
+    const next_btn = document.getElementById("next");
+    const submit_btn = document.getElementById("submit");
+
+    const opt1 = document.getElementById("option1");
+    const opt2 = document.getElementById("option2");
+    const user_score = document.getElementById("user_score");
+    const ques = document.getElementById("ques");
+  
+    let curr_ques=0;
+    var score= 0;
+    var arr=[0,0,0];
+    const questions=[
+        {
+            question: "Is LeanIn doing great in Web Development??",
+            answers: [
+                {
+                    option: "yes, of course", answer: true
+                },
+                {
+                    option: "naah, dont think so", answer: false
+                }
+            ]
+        },
+        {
+            question: " Did LeanIn Web Development Team help and encourage you to explore more ??",
+            answers: [
+                {
+                    option: "yes, of course", answer: true
+                },
+                {
+                    option: "naah, dont think so", answer: false
+                }
+            ]
+        },
+        {
+            question: " Is Pooja Gera real sister of Gaurav Gera??",
+            answers: [
+                {
+                    option: "yes, she is", answer: false
+                },
+                {
+                    option: "naah, dont think so", answer: true
+                }
+            ]
+        }
+    ]
+   
+    restart_btn.addEventListener('click',restart);
+    previous_btn.addEventListener('click',previous);
+    next_btn.addEventListener('click',next);
+    submit_btn.addEventListener('click',submit);
+    opt1.addEventListener('click',first);
+    opt2.addEventListener('click',second);
+    function first(){
+        if(questions[curr_ques].answers[0].answer){
+                if(score<3){
+                   
+                    if(arr[curr_ques]==0){
+
+                        document.getElementById("anim").classList.add("anim");
+                        document.getElementById("anim").innerHTML="WOW! correct answer";
+                        setTimeout(function(){ document.getElementById("anim").classList.remove("anim"); }, 2000);
+                        arr[curr_ques]=1;
+                        score++;
+                    }
+                }
+        }
+        else{
+            document.getElementById("anim").classList.add("anim");
+            document.getElementById("anim").innerHTML="OOPS! wrong answer";
+            setTimeout(function(){ document.getElementById("anim").classList.remove("anim"); }, 4000);
+        }
+        user_score.innerHTML=score;
+        if(curr_ques<2){
+            next();
+        }
+
+    }
+    function second(){
+            if(questions[curr_ques].answers[1].answer){
+                if(score<3){
+                    if(arr[curr_ques]==0){
+                        document.getElementById("anim").classList.add("anim");
+                        document.getElementById("anim").innerHTML="WOW! correct answer";
+                        setTimeout(function(){ document.getElementById("anim").classList.remove("anim"); }, 4000);
+                        arr[curr_ques]=1;
+                        score++;
+                    }
+                }
+            }
+            else{
+                document.getElementById("anim").classList.add("anim");
+                document.getElementById("anim").innerHTML="OOPS! wrong answer";
+                setTimeout(function(){ document.getElementById("anim").classList.remove("anim"); }, 4000);
+            }
+            user_score.innerHTML=score;
+            if(curr_ques<2){
+                next();
+            }
+    }
+    beginQuiz();
+    function beginQuiz(){
+        curr_ques=0;
+        ques.innerHTML= questions[curr_ques].question;
+        opt1.innerHTML= questions[curr_ques].answers[0].option;
+        opt2.innerHTML= questions[curr_ques].answers[1].option;  
+        previous_btn.classList.add('hide');
+    }
+    function restart(){
+        curr_ques=0;
+        score = 0;
+        user_score.innerHTML=score;
+        previous_btn.classList.remove('hide');
+        restart_btn.classList.remove('hide');
+        next_btn.classList.remove('hide');
+        submit_btn.classList.remove('hide');
+        arr=[0,0,0];
+        beginQuiz();
+    }
+    function previous(){
+        curr_ques--;
+        if(curr_ques<=0){
+            previous_btn.classList.add('hide');
+        }
+        next_btn.classList.remove('hide');
+        ques.innerHTML= questions[curr_ques].question;
+        opt1.innerHTML= questions[curr_ques].answers[0].option;
+        opt2.innerHTML= questions[curr_ques].answers[1].option;
+        
+    }
+    function next(){
+        curr_ques++;
+        
+        if(curr_ques>=2){
+            next_btn.classList.add('hide');
+        }
+        previous_btn.classList.remove('hide');
+        ques.innerHTML= questions[curr_ques].question;
+        opt1.innerHTML= questions[curr_ques].answers[0].option;
+        opt2.innerHTML= questions[curr_ques].answers[1].option;
+        
+    }
+    function submit(){
+            previous_btn.classList.add('hide');
+            restart_btn.classList.add('hide');
+            next_btn.classList.add('hide');
+            submit_btn.classList.add('hide');
+            opt1.classList.add('hide');
+            opt2.classList.add('hide');
+            ques.innerHTML="Congratulations on completing the quiz!!";
+        }
+</script>
+</html>
