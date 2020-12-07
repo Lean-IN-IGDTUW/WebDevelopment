@@ -1,0 +1,52 @@
+.container
+{
+    width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    border: 1px transparent;
+    border-radius: 20 px;
+    
+}
+.hero-img
+{
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.wallpapers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.row-img
+{
+    padding: 5px;
+    width: 328px;
+}
+button
+{
+    display: inline-block;
+    background-color: #363843;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+.wallpaper-item
+{
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
