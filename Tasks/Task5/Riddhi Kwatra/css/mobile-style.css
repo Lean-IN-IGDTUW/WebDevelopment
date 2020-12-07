@@ -1,0 +1,14 @@
+.container{
+    margin: 0px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image{
+    height: 80vh;
+}
+
+.row{
+    flex-direction: column;
+}
