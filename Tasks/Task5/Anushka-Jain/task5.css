@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(3.jpg);
+    background-position: center;
+
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+.nav-logo img{
+    width: 130px;
+}
+.nav-links{
+    flex:1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+content: '';
+width: 0;
+height: 2px;
+background: rgb(201, 53, 34);
+display: block;
+margin: auto;
+transition: 0.5s;
+    
+}
+.nav-links ul li:hover::after{
+width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(201, 53, 34);
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-links .btn{
+float: right;
+}
+.banner-title{
+    margin: 80px 130px;
+    color: #fff;
+}
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom:30px ;
+}
+.banner-title h1 span{
+    color: rgb(201, 53, 34);
+}
+.vertical-bar{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+.search-icon {
+    height: 60%;
+    width: 80px;
+}
+.search-icon .fa{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background:  rgb(201, 53, 34);
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
