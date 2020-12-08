@@ -1,0 +1,68 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+   font-family: 'Playfair Display';
+}
+.container{
+    padding: 20px;
+    margin: 20px 100px 100px 100px;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(36, 35, 35);
+}
+button:hover{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+a:hover{
+    color:black;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    line-height: 2;
+}
+.main-content{
+    height: 2000px;
+}
+.hero-image{
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image{
+    padding: 15px;
+    width: 430px;
+    height: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
