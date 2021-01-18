@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-style.css" media="(max-width:630px)">
+    <title>heathilicious</title>
+</head>
+<body>
+    <div class="outer-container">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgb(17, 206, 187);">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="font-size: 22px; color: rgb(10, 69, 88); font-weight:bold" href="#">
+                    <img src="img/icon.png" alt="" width="37" height="37" class="d-inline-block align-top">  
+                    Heathilicious
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="font-size: 17px; color: rgb(10, 69, 88); font-weight:700" href="#"st>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers"  style="font-size: 17px; color:  rgb(10, 69, 88); font-weight:700"">Offers</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  style="font-size: 17px; color: rgb(10, 69, 88); font-weight:700"" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#vegan">Vegan</a></li>
+                                <li><a class="dropdown-item" href="#raw">Raw</a></li>
+                                <li><a class="dropdown-item" href="#macrobiotic">Macrobiotic</a></li>
+                                <li><a class="dropdown-item" href="#dessert">Desserts</a></li>
+                                <li><a class="dropdown-item" href="#beverages">Beverages</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <br>    
+        <div class="container car-container">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/restaurant2.jpg" class="d-block w-100 img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/restaurant1.jpg" class="d-block w-100 img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/restaurant.jpg" class="d-block w-100 img" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="heading">
+                <h1 style="text-align: center; font-family:'Bubblegum Sans'; font-size: 53px" class="brand">HEALTHILICIOUS</h1>
+                <h1 style="text-align: center; font-family: 'Bubblegum Sans'; color:rgb(12, 145, 131) ">where taste meets health</h1>
+                <br>
+        </div>
+        
+        <div class="container menu" >   
+            <div class="row" id="vegan">
+                <h1 class="category">Vegan</h1>
+                <div class="col col-md-auto item">
+                    <img src="img/vegan3.jpg" class="image" alt="">
+                    <button class="button">Add To Cart</button>
+                    <div class="text">
+                        <p>Hummus, healthy vegan vegetarian food. Edamame dry beans, fresh mint.</p>
+                    </div>
+                </div>
+                
+                <div class="col col-md-auto item">
+                    <img src="img/veg3.jpg" class="image" alt="">
+                    <div class="text">
+                    Spicy Korean carrot Salad
+                    </div>
+                    <button class="button">Add To Cart</button>
+                </div>
+                <div class="col col-md-auto item">
+                    <img src="img/vegan2.jpg" class="image" alt="">
+                    <div class="text">
+                   Cooked meal with courgette, zucchini, chickpeas, beans with tomatoes, olives, tofu.
+                    </div>
+                    <button class="button">Add To Cart</button>     
+                </div>
+                <div class="col col-md-auto item">
+                    <img src="img/vegan1.jpg" class="image" alt="">
+                    <div class="text">
+                    Baked grapefruit decorated with walnuts
+                    </div>
+                    <button class="button">Add To Cart</button>
+                </div>
+                <div class="col col-md-auto item">
+                    <img src="img/vegan5.jpg" class="image" alt="">
+                    <div class="text">
+                    Edamame dry beans, fresh leaves, spices, baked beetroot.
+                    </div>
+                    <button class="button">Add To Cart</button>
+                </div>
+                <div class="col col-md-auto">
+                        <br>
+                        <span class="right"></span>
+                    <!--<img src="img/next.png" style="width: 50px; height:50px;" class="next" alt="">-->
+                </div>
+            </div>
+            <br>
+            <div class="row" id="raw">
+                <h1 class="category">Raw</h1>
+                    <div class="col col-md-auto item">
+                        <img src="img/raw1.jpg" class="image" alt="">
+                        <div class="text">
+                            Avocado, nectarine, orange salad
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/raw2.jpg" class="image" alt="">
+                        <div class="text">
+                        Light salad with arugula, lettuce and honeysuckle
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/raw3.jpg" class="image" alt="">
+                        <div class="text"> 
+                        Toasts with sliced avocado, tomatoes and sesamum seeds.
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/raw4.jpg" class="image" alt="">
+                        <div class="text">
+                        Fresh fruit salad
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/raw5.jpg" class="image" alt="">
+                        <div class="text">
+                            Zucchini salad
+                            </div>
+                            <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto">
+                        <br>
+                            <span class="right"></span>
+                    </div>
+            </div>
+            <br>
+            <div class="row" id="macrobiotic">
+                <h1 class="category">Macrobiotic</h1>
+                    <div class="col col-md-auto item">
+                        <img src="img/mac1.jpg" class="image" alt="">
+                        <div class="text">
+                                Tomatoes, radishes, cheeses, sprouts and sesame
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/mac2.jpg" class="image" alt="">
+                        <div class="text">
+                            Mushroom soup
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/mac3.jpg" class="image" alt="">
+                        <div class="text">
+                        Bright borsch with sour cream
+                    </div>
+                    <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/mac4.jpg" class="image" alt="">
+                        <div class="text">
+                        Fresh organic sprout micro greens served
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/mac5.jpg" class="image" alt="">
+                        <div class="text">
+                            Boiled rice with lot of vegetables
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto">
+                        <br>
+                            <span class="right"></span>
+                        </div>
+            </div>
+            <br>
+            <div class="row" id="dessert">
+                <h1 class="category">Desserts</h1>
+                    <div class="col col-md-auto item">
+                        <img src="img/des1.jpg" class="image" alt="">
+                        <div class="text">
+                        Heart waffle,flower pancakes with fresh fruits
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/des2.jpg" class="image" alt="">
+                        <div class="text">
+                        Pancakes with berry jam and fruits
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/des3.jpg" class="image" alt="">
+                        <div class="text">
+                        Cheesecake without sugar
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/des4.jpg" class="image" alt="">
+                        <div class="text">
+                        Muesli with strawberries
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/des5.jpg" class="image"alt="">
+                        <div class="text">
+                        Belgian waffles with raspberries, honey and figs
+                        </div>  
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto">
+                        <br>
+                            <span class="right"></span>
+                        </div>
+                        
+            </div>
+          <br>
+            <div class="row" id="beverages">
+                <h1 class="category">Beverages</h1>
+                    <div class="col col-md-auto item">
+                        <img src="img/bev1.jpg" class="image" alt="">
+                        <div class="text">
+                        Fresh blueberry cocktail with rosemary and ice 
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/bev2.jpg" class="image" alt="">
+                        <div class="text">
+                        Black tea
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/bev3.jpg" class="image" alt="">
+                        <div class="text">
+                        Masala tea with milk
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item"> 
+                        <img src="img/bev4.jpg" class="image" alt="">
+                        <div class="text">
+                        Papaya, dragon fruit, pineapple, mango smoothie
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto item">
+                        <img src="img/bev5.jpg" class="image" alt="">
+                        <div class="text">
+                        Strawberry smoothie
+                        </div>
+                        <button class="button">Add To Cart</button>
+                    </div>
+                    <div class="col col-md-auto">
+                        <br>
+                            <span class="right"></span>
+                        </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="container offers">
+                <div class="row" id="offers">
+                        <h1 class="category">Offers!!</h1>
+                        <div class="col col-md-auto col-md-offset-20 item">
+                            <button class="off">
+                            <img src="img/discount1.jpg" class="dis" alt="">
+                            <div class="text-offer">
+                                <h2>Buy1 Get1</h2>
+                            </div>
+                            </button>
+                            
+                        </div>
+                        <div class="col col-md-auto item">
+                            <button class="off">
+                            <img src="img/discount2.jpg" class="dis" alt="">
+                            <div class="text-offer">
+                                <h2>Combos for today</h2>
+                            </div>
+                            </button>
+                        </div>
+                        <div class="col col-md-auto item">
+                            <button class="off">
+                            <img src="img/discount3.jpg" class="dis" alt="">
+                            <div class="text-offer">
+                                <h2>Flat 20% off</h2>
+                            </div>
+                            </button>   
+                        </div>
+                        <div class="col col-md-auto item">
+                            <button class="off">
+                            <img src="img/discount4.jpg" class="dis" alt="">
+                            <div class="text-offer">
+                                <h2>Flat 40% off</h2>
+                            </div>
+                            </button>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
