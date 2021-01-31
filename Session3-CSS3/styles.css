@@ -1,0 +1,144 @@
+/* CSS(Cascading stylesheet) is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+
+There are three ways of inserting a style sheet:
+1) External CSS
+2) Internal CSS
+3) Inline CSS */
+
+
+/* External CSS 
+<head>
+    <link rel="stylesheet" href="myCssFileName.css">
+</head>
+
+rel defines a relationship between the file to which we are adding and the file whos link is given!
+rel: (Relation): this is used to specify the relation whether the external page is a stylesheet or javascript
+href: (Hypertext reference : when we have to link an html page to any other page)
+The href attribute specifies the URL of the page the link goes to.
+save using .css 
+*/
+
+
+/* 
+Internal CSS
+
+<head>
+    <style>
+        content of css
+    </style>
+</head>  */
+
+
+/* 
+Inline CSS
+Inline styles are defined within the "style" attribute of the relevant element:
+<p style="color:red;">This is a paragraph.</p> */
+
+
+/*  
+CSS Syntax
+A CSS rule-set consists of a selector and a declaration block: */
+ /* selector , property, value  */
+
+/* 
+Example 1:
+h1{
+    color: blue;
+    font-size:30px;
+}
+
+selector{
+    property: value;
+}
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks 
+are surrounded by curly braces.  */
+
+/* 
+Example 2: 
+h1{
+    color:blue;
+    font-size:12px;
+}  */
+
+/*
+CSS Selectors:
+CSS selectors are used to "find" (or select) the HTML elements you want to style. 
+*/
+
+body{
+    /* background-color: black; */
+    background-color: #505000;
+    /* color:white; */
+    color:#dbddcf;
+    /* color: #FCD757; */
+}
+
+h1{
+    text-align: center !important; 
+}
+
+h1{
+    text-align: left;
+}
+
+h2{
+    text-align: left;
+}
+
+h3{
+    text-align: right;
+}
+
+img{
+    width:200px; 
+    height:200px;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+    /* display: block; */
+  margin-left: 50%;
+  /* margin-right: auto; */
+}
+.center{
+    display: block;
+    text-align: center;
+}
+/* h1{
+    font-size: 100px;
+} */
+
+p{
+    font-size: 20px;
+    /* font-size: 2em; */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 50px;
+    margin-top: 100px; */
+    /* margin-bottom: 100px;
+    margin: top right bottom left; */
+    margin: 100px 140px 130px 150px;
+    /* color: #FFFFFF; */
+}
+/* 
+id, class 
+14801012018  identity (id) : #
+CSE 2  class : . */
+
+#my-name{
+    color:aqua;
+}
+
+.my-class{
+    color:rgb(207, 207, 126);
+}
+
+#para{
+    font-size: 40px;
+}
