@@ -1,0 +1,21 @@
+span {
+    height: 50px;
+    width: 75px;
+    background: #00ff00;
+    float: right;
+}
+
+div {
+    height: 100px;
+    width: 25%;
+    background: #00ffff;
+    /* display: inline-block; */
+    float: right;
+}
+
+p {
+    background: #ff00ff;
+    width: 200px;
+    height: 100px;
+    clear: right;
+}

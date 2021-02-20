@@ -1,0 +1,29 @@
+* {
+    margin: 0 0;
+}
+
+nav {
+    font-family: 'Yusei Magic', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #4DBDAA;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
