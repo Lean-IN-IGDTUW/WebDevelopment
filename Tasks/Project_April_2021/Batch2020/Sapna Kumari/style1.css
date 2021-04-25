@@ -1,0 +1,279 @@
+#index {
+    background-color: #C48793;
+    display: flex;
+    height: 50vh;
+}
+
+.leftside {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.leftside img {
+    width: 70%;
+    height: 90%;
+    margin-top: 6%;
+    margin-left: 6rem;
+}
+
+.rightside {
+    width: 55%;
+    height: 270px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    padding: 30px;
+    margin-right: 7rem;
+}
+
+.rightside h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.rightside p {
+    font-size: 1.3rem;
+    padding: 25px 0;
+}
+
+#add_user {
+    background-color: #C48793;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0px;
+    height: 100%;
+}
+
+.container1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    height: 1000;
+}
+
+.form {
+    padding: 50px 70px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.form {
+    margin-bottom: 21px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.form input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.form input:focus {
+    outline: 0;
+    border: 2px solid black;
+}
+
+.form.success input {
+    border-color: rgb(112, 151, 54);
+}
+
+.form.error input {
+    border-color: red;
+}
+
+.form small {
+    color: red;
+    position: absolute;
+    margin-bottom: 10px;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.form.error small {
+    visibility: visible;
+}
+
+.form .button {
+    cursor: pointer;
+    background-color: #C48793;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#transact {
+    background-color: #C48793;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container_two {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    width: 700;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    height: 1000;
+}
+
+.table {
+    border-collapse: separate;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td,
+th {
+    text-align: left;
+    padding: 10px;
+    border-left: solid black 2px;
+    border-top: solid black 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tr {
+    background-color: #9cd1e9;
+}
+
+.th {
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    background-color: #b3a8a8;
+    color: black;
+}
+
+.tr:hover {
+    background: transparent;
+    color: aliceblue;
+}
+
+.table th:hover {
+    color: gray;
+    transition: 1s transform ease-in-out;
+}
+
+.table th:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.form {
+    padding: 30px 45px;
+}
+
+h2 {
+    color: rgb(80, 80, 75);
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.form-control_two {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control_two label {
+    color: darkgray;
+    display: block;
+}
+
+.form-control_two input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form-control_two textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form-control_two select {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form-control_two textarea:focus {
+    outline: 0;
+    border: 2px solid black;
+}
+
+.form-control_two input:focus {
+    outline: 0;
+    border: 2px solid black;
+}
+
+.form small {
+    color: red;
+    position: absolute;
+    margin-bottom: 10px;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.form-control_two.error small {
+    visibility: visible;
+}
+
+.form .button {
+    cursor: pointer;
+    background-color: #C48793;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
