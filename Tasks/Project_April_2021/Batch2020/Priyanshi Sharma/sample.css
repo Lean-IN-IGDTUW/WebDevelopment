@@ -1,0 +1,70 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top,#5d6d91,#242b3f,#464a68 , #06040e );
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+   
+}
+.container{
+  width: 1000px;
+  margin: 100px auto;
+  background: #fff;
+  border: 1px transparent;
+  border-radius: 10px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.items{
+  padding: 20px 20px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h1{ 
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-size: 20px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 3000;
+  color: #242b3f;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear:both;
+
+}
+h5{
+  font-size: 20px;
+  color: #242b3f;
+}
+img{
+  width: 140px;
+  height: 160px;
+}
+.display{
+  padding: 15px 15px ;
+}
+.row{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  color:#101225;
+
+}
+.btn{
+  border-radius: 5px 5px 5px 5px ;
+  background-color: #4d5974;
+  color:#ffff;
+  padding: 5px 5px ;
+}

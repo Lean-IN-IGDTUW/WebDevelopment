@@ -1,0 +1,233 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top,#2b3447,#242b3f,#101225 , #06040e );
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+   
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear:both;
+
+}
+h1{ 
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 400 ;
+}
+h4{
+  font-size: 25px;
+  color: #103d68;
+  text-align: center;
+  padding: 25px;
+}
+.container1{
+    width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+.tj-img{
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+
+}
+.wallpapers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-img{
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 268px;
+    height: 250px;
+}
+button{
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #103d68;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+}
+.wallpaper-item{
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 10px;
+   padding: 10px 20px;
+}
+.wallpapers h2{
+	padding-bottom: 40px;
+	
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #d0d6e4;
+  border-radius: 10px 10px 10px 10px;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 1px 0;
+  line-height: normal;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+}
+.card .content .btn button{
+  background: #103d68;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+.card:hover{
+	background-color: #d2d2da;
+}
+
+.slider{
+	max-width: 1100px;
+	display: flex;
+  }
+  .slider .card1{
+	flex: 1;
+	margin: 0 5px;
+	background: #d0d6e4;
+	border-radius: 10px 10px 10px 10px;
+  }
+  .slider .card1 .img1{
+	width: 150px;
+	height: 200px;
+	align-items: center;
+  }
+  .slider .card1 .img1 img{
+	width: 150px;
+	height: 200px;
+object-fit: cover;
+margin-left: 50%;
+  }
+  .slider .card1 .content1{
+	padding: 5px 10px 1px 15px;
+  }
+  .card1 .content1 .title1{
+	padding-top: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+  }
+  .card1 .content1 .sub-title1{
+	padding-top: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: rgb(27, 76, 104);
+
+  }
+  .card1 .content1 p{
+	text-align: justify;
+	margin: 10px 0;
+  }
+  .card1 .content1 .btn1{
+	display: block;
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+  }
+  .card1 .content1 .btn1 button{
+	background: #103d68;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	padding: 2px 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+  
+  }
+  .card1 .content1 .btn1 button:hover{
+	transform: scale(0.9);
+  }
+  .wallpapers text{
+	
+	font-size: 20px;
+	padding: 1px 10px 10px 700px;
+	color: #317bc0;
+}
+.text{
+  font-size: 20px;
+  color: #317bc0;
+  font-weight: 400;
+  padding: 1px 10px 10px 750px;
+}
+.title h2{
+  text-align: center;
+}
