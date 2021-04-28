@@ -1,0 +1,107 @@
+h2
+{
+  text-align:center ;
+  
+  font-family: 'Dela Gothic One', cursive;
+  
+}
+.progress
+{
+    width: 500px;
+   
+}
+h5{
+    
+    text-decoration: none;
+    color:black;
+    text-align:center;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+a:link { text-decoration: none; }
+.progress-bar
+{
+    align-items: center;
+}
+.table {
+    margin: auto;
+    width: 50% !important; 
+    height:400px;
+ }
+ .progress 
+ {
+      margin-left: auto;
+     margin-right:auto;
+ }
+ .bg
+ {
+     border-width: 1000px;
+ }
+  .container
+  {
+      padding-top:30px;
+  }
+  .card
+ {   
+  align-items: center;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .img
+ {
+
+     
+     border-radius: 50px;
+ }
+ .hobbylist
+ {
+     font-size:23px;
+     text-align:center;
+ }
+ .span
+ {
+    font-family: 'Noto Sans HK', sans-serif;
+ }
+.bg
+{
+  background-image: url(https://silkinteriors.com.au/wp-content/uploads/2019/04/H0403-Polka-Dots-Multicoloured-Wallpaper-by-Lilipinso-for-kids.jpg);
+} 
+.ach
+{
+    padding:30px;
+    text-align:center;
+    font-size:23px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.footer
+{
+    padding:30px;
+    background-color:linen;
+}
+.table
+{
+ align-items: center;
+}
+
+.accordion
+{
+    padding:30px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ .accordion-collapse
+  {
+ background-color:rgb(248, 240, 229);
+  }
+  .accordion-button
+  {
+      background-color:black;
+  }
+  .accordion-item
+  {
+      background-color:burlywood;
+  }
