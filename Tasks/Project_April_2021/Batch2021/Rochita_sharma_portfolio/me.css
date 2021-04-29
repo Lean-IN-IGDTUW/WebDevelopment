@@ -1,0 +1,21 @@
+.navbar{
+    background: #00203FFF;
+    /* background: yellow; */
+}
+
+.row-content{
+    min-height: 200px;
+    padding: 50px 0px;
+}
+.About{
+    margin-top: 15px;
+} 
+.common{
+    border-bottom: 1px solid black;
+}
+footer{
+    background-color: black;
+}
+.foot{
+    list-style: none;
+}

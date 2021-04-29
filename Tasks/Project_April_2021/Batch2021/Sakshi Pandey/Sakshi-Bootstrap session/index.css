@@ -1,0 +1,246 @@
+.nav-item:hover{
+    background-color: rgb(36, 131, 121);
+    border-radius: 10px;
+    color:cornsilk;
+    font-weight: bold;
+}
+
+.carousel-item p{
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.img-fluid{
+    filter: grayscale(100%) ;
+    border: solid 10px black;
+    transition: 0.6s;
+}
+
+.img-fluid:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+body{
+    position: relative;
+    background-color: black;
+}
+
+.hey{
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+.hey h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.about1{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    margin: 200px 30px 100px 30px;
+}
+
+/* #About {
+    margin-top: 200px;
+} */
+
+.about1 p{
+    margin-bottom: 200px;
+}
+
+
+.table{
+    margin: 30px;
+    width: 93%;
+}
+
+.Skills h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    margin-top: 80px;
+
+}
+
+.progress{
+    margin:10px 30px;
+    width: 93%;
+}
+
+#edu1 h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+#Hobbies1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    transform: 0.6s;
+}
+
+#Hobbies1 h1{
+    margin-top: 200px;
+}
+
+.carousel-item{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.carousel-item:hover{
+    filter: none;
+}
+
+#connect h1{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 80px;
+
+} 
+#connect p{
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+}
+
+#contact1{
+    text-align: center;
+    color: whitesmoke;
+    margin: 200px 30px 0px 30px;
+    padding: 30px;
+    background-image: url(night.png);
+}
+
+#contact1 h1{
+    background-color: black;
+    padding: 30px 0px;
+}
+
+#form{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgba(130, 214, 206, 0.445);
+    color: black;
+    font-weight: bolder;
+}
+
+#FName, #LName, #Email, #msg{
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    border-radius: 40px;
+    color: rgb(37, 34, 34);
+    font-weight: normal;
+    transition: 0.6s;
+    box-shadow: 3px 5px 8px black;
+    
+}
+
+button[type="submit"]:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    height: 30px;
+    width: 100px;
+    box-shadow: 0px 3px 5px black;
+}
+
+.input-group{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -10px;
+}
+
+.projects{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.project-item1{
+    border: solid 1px white;
+    padding: 10px 0px  ;
+}
+
+#section-title{
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.project-info a{
+    text-decoration: none;
+    transition: 0.6s;
+    color:rgb(101, 197, 186);
+}
+
+.project-info a:hover{
+    font-size: 30px;
+}
+
+.row{
+    display: flexbox;
+}
+
+.logos{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+
+.insta{
+    width: 50px;
+    border-radius: 50%;
+    filter: grayscale(75%);
+    transition: 0.6s;
+}
+
+.insta:hover{
+    filter:none;
+    transform: rotate(360deg );
+}
+
+.twitter{
+    width: 50px;
+    border-radius: 50%;
+    filter: grayscale(75%);
+    transition: 0.6s;
+   
+}
+
+.twitter:hover{
+    filter:none;
+    transform: rotate(360deg );
+}
+
+.github{
+    width: 70px;
+    border-radius: 50%;
+    filter: grayscale(75%);
+    transition: 0.6s;
+   
+}
+
+.github:hover{
+    filter:none;
+    transform: rotate(360deg );
+}
+
+.linkedin{
+    width: 50px;
+    border-radius: 50%;
+    filter: grayscale(75%);
+    transition: 0.6s;
+    
+}
+
+.linkedin:hover{
+    filter:none;
+    transform: rotate(360deg );
+}

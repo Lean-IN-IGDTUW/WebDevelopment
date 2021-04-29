@@ -1,0 +1,220 @@
+body {
+  font-family: 'Marcellus', serif;
+  color: grey;
+}
+
+/* Intro */
+
+.profile-pic {
+  height: 27rem;
+  width: 60%;
+  display: block;
+  margin: 6rem auto;
+}
+
+h1 {
+  font-size: 5.5rem;
+  margin:6rem 40px 30px;
+  color: #afa9a9;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.intro {
+  margin: 0;
+  background-color: #fff600;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+  .profile-pic {
+    margin-top: 1rem;
+  }
+}
+
+/* ABOUT ME */
+
+.about {
+  /* background-color: black; */
+}
+
+h2 {
+  text-align: center;
+  margin: 70px auto 20px;
+  font-family: 'Palanquin', sans-serif;
+  color: #8ab6d6;
+  font-size: 2.5rem;
+}
+
+p {
+  margin: 10px auto 50px;
+  font-size: 1.2rem;
+  color: grey;
+  width: 70%
+}
+
+/* CARDS */
+
+.card-img-top {
+  height: 20rem;
+}
+
+.card {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Noto Serif SC', serif;
+  color: #0061a8;
+}
+
+/* MY EDUCATION */
+
+.edu {
+  background-color: #fff600;
+}
+
+.Education {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.my-Education {
+  padding: 0 40px 40px;
+}
+
+.color {
+    color: #afa9a9;
+}
+
+h4 {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #2978b5;
+}
+
+.skills-heading {
+  margin: 30px auto 10;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skill-div {
+  margin: 10px;
+}
+
+.tskill {
+  background-color: #98ddca;
+  height: 220px;
+}
+
+ul{
+  margin: auto;
+  width: 30%;
+}
+
+/* MY PROJECTS */
+
+.project-heading {
+  margin-top: 50px;
+}
+
+.sport {
+  background-image: url("images/sport.png");
+  background-size: 100% 100%;
+  height: 25rem;
+  margin: 40px;
+  padding: 75px 45px 45px;
+  text-align: center;
+}
+
+
+.sport-head {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+.sport-para {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.portfolio {
+  background-image: url("images/portfolio.png");
+  background-size: 100% 100%;
+  height: 25rem;
+  margin: 40px;
+  padding: 75px 45px 45px;
+  text-align: center;
+}
+
+/* MY Experiences */
+
+.leanIn{
+  margin: auto;
+  display: block;
+}
+
+.leanIn-heading {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: left;
+}
+
+.leanIn-para {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.taarangana {
+  height: 200px;
+  width: 200px;
+}
+
+/* CONTACT */
+
+.contact {
+  margin: 80px;
+}
+
+.message {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form {
+  width: 70%;
+}
+
+.footer {
+  background-color: #fff600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.connect {
+  padding-top: 30px;
+}
+
+i {
+  margin-left: 10px;
+}
