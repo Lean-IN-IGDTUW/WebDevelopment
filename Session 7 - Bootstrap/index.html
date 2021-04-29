@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome To Bootstrap Session!</title>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+
+    <!-- Starter Template -->
+        <!-- <section>
+            <h1>Starter Template</h1>
+        </section> -->
+
+
+    <!-- Basic Layout -->
+        <section>
+            <div class = "container">
+                <!-- <div class = "row bg-primary">
+                    <div class = "col-12">
+                        <h1> Assigns all 12 cols. </h1>
+                    </div>
+                </div> -->
+                
+                <!-- <div class = "row bg-secondary">
+                    <div class = "col-6">
+                        <h1> Assigns first 6 cols. </h1>
+                    </div>
+                    <div class = "col-6">
+                        <h1> Assigns last 6 cols. </h1>
+                    </div>
+                </div> -->
+
+                <!-- <div class = "row bg-light">
+                    <div class = "col">
+                        <h1> Assigns first 4 cols. </h1>
+                    </div>
+                    <div class = "col">
+                        <h1> Assigns mid 4 cols. </h1>
+                    </div>
+                    <div class = "col">
+                        <h1> Assigns last 4 cols. </h1>
+                    </div>
+                </div> -->
+
+                <!-- <div class = "row bg-danger">
+                    <div class = "col-3">
+                        <h1> Assigns first 3 cols. </h1>
+                    </div>
+                    <div class = "col-5">
+                        <h1> Assigns mid 5 cols. </h1>
+                    </div>
+                    <div class = "col">
+                        <h1> Assigns (12 - (3 + 5)) cols. </h1>
+                    </div>
+                </div> -->
+
+                <!-- <div class="row ">
+                    <div class="col-sm-4 col-md-3 bg-warning">
+                        Assigns first 4 cols in small viewport & 3 cols in medium viewport.
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-5 bg-success">
+                        Assigns mid 4 cols in small viewport, 3 columns in medium & 5 in large viewport.
+                    </div>
+                    <div class="col-sm-none col-md-3 bg-info">
+                        Assigns no col in small but 3 col from medium onwards.
+                    </div>
+                </div> -->
+
+                <!-- <div class="row bg-info">
+                    <div class="col-auto">
+                        Variable width content
+                    </div>
+                </div> -->
+
+                <div class="row bg-info">
+                    <div class="col-5 offset-3">
+                        Giving certain amount of offset space to the left
+                        (Remember the sum should equal to 12)
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    <!-- Alignment -->  
+        <!-- <section>
+            <div class = "container">
+
+                <div class = "row bg-light justify-content-start">
+                    <div class = "col-4">
+                        <h1> Assigns first 4 cols. </h1>
+                    </div>
+                    <div class = "col-4">
+                        <h1> Assigns mid 4 cols. </h1>
+                    </div>
+                </div>
+
+                <div class = "row bg-info justify-content-center">
+                    <div class = "col-4">
+                        <h1> Assigns first 4 cols. </h1>
+                    </div>
+                    <div class = "col-4">
+                        <h1> Assigns mid 4 cols. </h1>
+                    </div>
+                </div>
+
+                <div class = "row bg-light justify-content-end">
+                    <div class = "col-4">
+                        <h1> Assigns first 4 cols. </h1>
+                    </div>
+                    <div class = "col-4">
+                        <h1> Assigns mid 4 cols. </h1>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+
+
+
+        <section>
+
+            <!-- Navbar -->  
+            <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Geeks of Geeks</a>
+
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item"><div class="dropdown">
+                                <a class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" role="button" data-toggle="dropdown" >
+                                  Sports
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Badminton</a>
+                                  <a class="dropdown-item" href="#">Basketball</a>
+                                  <a class="dropdown-item" href="#">Baseball</a>
+                                  <a class="dropdown-item" href="#">Tennis</a>
+                                  <a class="dropdown-item" href="#">Chess</a>  
+                                  <a class="dropdown-item" href="#">Football</a>
+                                </div>
+                              </div></li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav> -->
+
+
+
+            <!-- Carousel -->  
+            <!-- <header>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000" style="filter:opacity(0.7);">
+                    <div class="carousel-inner carousel-main">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                                <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Persistence can change failure into extraordinary achievement.</em></h1>
+                            </div>
+                            <img class="d-block w-100 img-fluid" src="images/carousel-main-1.jpg" alt="First slide" >
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                                <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Set your goals high, and don't stop till you get there.</em></h1>
+                            </div>
+                            <img class="d-block w-100 img-fluid " src="images/carousel-main-2.jpg" alt="Second slide">
+                        </div> 
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                                <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Champions keep playing until they get it right.</em></h1>
+                            </div>
+                            <img class="d-block w-100 img-fluid" src="images/carousel-main-3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </header> -->
+
+
+
+
+            <!-- Bootstrap Buttons -->  
+            <!-- <article>
+                <div class = "container">
+                    <div class = "row row-content">
+                        <div class = "col">
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                            <button type="button" class="btn btn-success">Success</button>
+                            <button type="button" class="btn btn-danger">Danger</button>
+                            <button type="button" class="btn btn-warning">Warning</button>
+                            <button type="button" class="btn btn-info">Info</button>
+                            <button type="button" class="btn btn-light">Light</button>
+                            <button type="button" class="btn btn-dark">Dark</button>
+                            <button type="button" class="btn btn-link">Link</button>
+                        </div>
+                    </div>
+                </div>
+            </article> -->
+
+
+
+
+            <!-- Figures / Images -->  
+            <!-- <article>
+                <div class = "container">
+                    <div class = "row row-content">
+                        <div class = "col">
+                            <figure class="figure">
+                                <img src="images/badminton_card.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                            </figure>
+                            <figure class="figure">
+                                <img src="images/carousel-main-1.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                            </figure>
+                            <figure class="figure">
+                                <img src="images/badminton_card.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </article> -->
+
+
+
+
+            <!-- Bootstrap Tables -->  
+            <!-- <article>
+                <div class = "container">
+                    <div class="row row-content">
+                        <div class="col">
+                            <table class="table table-dark table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </article> -->
+        </section>
+    
+    
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    </body>
+</html>
