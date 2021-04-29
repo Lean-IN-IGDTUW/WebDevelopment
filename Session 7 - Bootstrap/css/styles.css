@@ -1,0 +1,9 @@
+.navbar-dark{
+    background: #00203FFF;
+    /* background: yellow; */
+}
+
+.row-content{
+    min-height: 200px;
+    padding: 50px 0px;
+}
