@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(240, 196, 180);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    padding: 0 0 0.1rem;
+    background-color: #000;
+}
+  
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 15px;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color:#fff;
+}
+.description{
+    width: 80%;
+    margin: 50px auto;
+}
+nav.black{
+    background: #000;
+}
+.bg-img {
+    background: linear-gradient(rgba(10, 10, 39, 0.61),rgba(10, 10, 39, 0.61)),url(bgc.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    padding-top: 10%;
+    margin: 20px;
+    padding: 10px;
+    background-color:none;
+}
+  
+    input[type=text], input[type=email] {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: #fff;
+    background:rgba(255, 255, 255, 0.329);
+    outline: #fff;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  ::placeholder{
+      color:rgba(0, 0, 0, 0.671);
+  }
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.8;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .social-icon {
+    margin: 20px 10px;
+  }
+@media (max-width: 1100px){
+  .navbar {
+    padding: 0 0 1rem;
+    background-color: #000;
+}
+ 
+.navbar-brand {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding:3%;
+}
+h1{
+  padding-top: 7rem;
+}
+.nav-link {
+    font-size: 2rem;
+    font-family: "Montserrat-Light";
+}
+.bg-img {
+    background: linear-gradient(rgba(10, 10, 39, 0.61),rgba(10, 10, 39, 0.61)),url(bgc.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    padding-top: 20%;
+    margin: 5% 0;
+    padding: 3%;
+    background-color:none;
+}
+  
+    input[type=text], input[type=email] {
+    width: 100%;
+    padding: 5%;
+    margin: 5px 0 22px 0;
+    border: #fff;
+    background:rgba(255, 255, 255, 0.329);
+    outline: #fff;
+    font-size: xx-large;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+    font-size: xx-large;
+  }
+  ::placeholder{
+      color:rgba(0, 0, 0, 0.671);
+      font-size: xx-large;
+  }
+  .btn {
+    font-size: xx-large;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+  }
+}

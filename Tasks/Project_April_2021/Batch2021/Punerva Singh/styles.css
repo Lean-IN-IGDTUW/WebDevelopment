@@ -1,0 +1,235 @@
+body{
+    background-color: #FAF3E0;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h4 {
+    margin: 3% 4%;
+    color: #1e212d;
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.welcome-text {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25%;
+    padding-left: 0;
+    color:#fff;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.397);
+}
+.welcome-text2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.397);
+}
+p {
+    color: #1e212d;
+    font-family: "Montserrat-Light";
+}
+#welcome-section{
+    background: linear-gradient(rgba(12, 5, 24, 0.438),rgba(12, 5, 24, 0.438)),url(p1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 0.2rem;
+    background-color: #000;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+.intro{
+    font-size: 48px;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color:#fff;
+}
+.my-intro{
+    text-align:left;
+    margin: 10% 10% 5% 0;
+    color: #1e212d;
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+}
+.my-full-intro{
+    text-align:left;
+    margin: 10% 10% 5% 0;
+    color: #1e212d;
+    font-family: "Montserrat-Light";
+    font-size: large;
+}
+.intro-part{
+    padding:0 0;
+}
+.name{
+    font-size: 35px;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    color:#fff;
+}
+#self-intro{
+    padding: 0 0;;
+    margin: 7% 15%;
+    background-color: #EABF9F;
+    padding-left: 10%;
+}
+#achievements{
+    background-color: #EABF9F;
+    margin:10%;
+    padding:5%;
+}
+.plane-txt{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#education {
+    background-color: #EABF9F;
+}
+  
+.edu-text, .achieve-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+.edu-image, .achieve-image , .achieve-img {
+    width: 95%;
+    height:100%;
+    margin: 20px;
+  }
+.plane-text{
+    font-size: 2rem;
+    color: #1e212d;
+    font-family: "Montserrat-Light";
+}
+#hobbies{
+    display: inline-block;
+    padding: 50px;
+    margin: 5% 10%;
+    background-color: #EABF9F;
+}
+.hobbie-div{
+    height: 40vh;
+    width: 40vh;
+}
+#skills{
+    background-color: #EABF9F;
+    margin:10%;
+    padding:5%;
+}
+#education{
+    background-color: #EABF9F;
+    margin:10%;
+    padding:5%;
+}
+#projects{
+    background-color: #EABF9F;
+    margin:10%;
+    padding:5%;
+}
+.my-pic{
+    height: 90%;
+    width: 80%;
+    margin:5% 5%;
+}
+.hobbie-image {
+    height: 70%;
+    width: 80%;
+}
+.hobbie-text{
+    padding-top: 5%;
+}
+nav.black{
+    background: #000;
+}
+.btn-primary {
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+    background-color: black;
+    height: 10%;
+    padding-top: 1.5%;
+    width:100%;
+}
+@media (max-width: 1100px){
+    #welcome-section{
+        height: 50vh;
+    }
+    .navbar {
+        padding: 0 0 0.8rem;
+        background-color: #000;
+    }
+    #hobbies{
+        padding: 30px;
+        margin: 5% 5%;
+    }
+    .welcome-text {
+        font-size:100px;
+        padding-top: 30%;
+    }
+    .welcome-text2 {
+        font-size: 100px;
+    }
+    .navbar-brand {
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    .nav-item {
+      padding:2%;
+    }
+    .nav-link {
+        font-size: 2rem;
+        font-family: "Montserrat-Light";
+    }
+      
+    .achieve-image {
+        width: 95%;
+        height:80%;
+        margin: 20px;
+      }
+    .edu-image {
+        width:100%;
+        height:50%;
+    }
+    .achieve-img {
+        width:100%;
+        height:40%;
+    }
+}
