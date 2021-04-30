@@ -1,0 +1,273 @@
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha's Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+  </head>
+
+   <body>
+<!--for navigation bar --the header-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo4.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsive">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav--item active"><a href="#home" class="nav-link">Home</a></li>
+         <li class="nav-item"><a href="#services" class="nav-link">My Services</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">My Work</a></li>
+    
+          </ul>
+  </div> 
+</div>
+
+  </div>
+</nav>
+
+
+<!--carousel img-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+  <li data-target="#slides" data-slide-to="0" class="active"></li>
+  <li data-target="#slides" data-slide-to="1"></li>
+  <li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inners">
+  <div class="carousel-item active">
+    <img src="img/EN-.jpg" style="height:700px; width:100%; ">
+    <div class="carousel-caption">
+      <h1 class="display-2">Hi. I am <strong>Anusha Dixit</strong></h1>
+      <h3>My Portfolio website</h3>
+      <button type="button" class="btn btn-outline-light btn-lg" >About Me</button>
+      <button type="button" class="btn btn-primary btn-lg">My Work</button>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="img/enha4.jpg" style="height: 700px; width: 100%;">
+  </div>
+  <div class="carousel-item">
+    <img src="img/enha1.jpg" style="height: 700px; width: 100%;">
+  </div>
+</div>
+</div>
+
+
+<!--Jumbotron : it is used to extend the whole viewport on device screen to display a particular message -->
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 ">
+      <p class="lead"><b>Web development</b> is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great,
+         work fast and perform well with a seamless user experience.
+         Web developers, or <i>'devs'</i>, do this by using a variety of coding languages.</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+     <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Development</a></div>
+    </div>
+  </div>
+</div> 
+
+
+<!--Part2 of intro-->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Development is Fun!</h1>
+    </div>
+    <hr class=>
+    <div class="col-12">
+      <p class="lead">I practice web development through HTML5, CSS3 and Bootstrap 4.</p>
+    </div>
+  </div>
+  <hr class="my-4">
+</div>
+
+
+<!--3 part section with HTML CSS Bootstrap icons-->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <i class="fas fa-code"></i>
+  <h3>HTML5</h3>
+  <p>Built with the latest version of HTML, HTML5.</p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <i class="fas fa-bold"></i>
+  <h3>BOOTSTRAP</h3>
+  <p>Built with the latest version of Bootstrap 4.</p>
+</div>
+ 
+<div class="col-sm-12 col-md-4"> <!--because the css section goes directly from 3 column to 1 column on 
+changing the device width...col-sm-12 is optional though (no need to mention of sizes <= md)-->
+  <i class="fab fa-css3"></i>
+  <h3>CSS3</h3>
+  <p>Built with the latest version of CSS, CSS3.</p>
+</div>
+ 
+  </div>
+  <hr class="my-4"> <!--a light grey line that spans across the page to visually
+  divide the page and make it look cleaner-->
+</div>
+
+
+<!-- 2 column section with text on left and image on right-->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class=" col-lg-6">
+      <h2>To make this section</h2>
+      <br>
+      <p>We divide the viewport into different number of columns depending on the size of the viewport.
+        The image moves on to the side of the text as soon as the device width gets larger than <b>992px</b>.
+        I used the class img-fluid 'img-fluid' which is used to make images responsive in bootstrap. 
+        It automatically sets the image <b>max-width</b> to <i>'100%'</i> and <b>height</b> to <i>'auto'</i></p>
+      <br>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/enha5.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+
+<hr class="my-4">
+<!--fixed background area-->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+          </div>
+  </div>
+
+  <!--me and my resume-->
+  <div class="container-fluid">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">Meet Me!</h1>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="img/me.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Anusha Dixit</h4>
+            <p class="card-text">I am a 19 year old web developer.
+              I am a fresher at Indira Gandhi Delhi Technical University for Women, Delhi.
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Resume</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="img/team.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Ananya Shukla</h4>
+            <p class="card-text">Ananya is a 19 year old web developer.
+              She too is a fresher at Indira Gandhi Delhi Technical University for Women, Delhi.
+              Together we have participated in many hackathons.
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Resume</a>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+  </div>
+  <!--links to social media accounts-->
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-12">
+        <h2>Connect with Me!</h2>
+      </div>
+      <div class="col-12 social padding">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--whew...last but not the least footer section-->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-md-4">
+        <img src="img/logo4.png">
+        <hr class="light">
+        <h6>987654321</h6>
+        <hr class="light">
+        <h6>anusha008btit20@igdtuw.ac.in</h6>
+        </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>Reach out to me via mail or LinkedIn</h5>
+        <h5>Calls would be welcomed from 10 a.m. to 6 p.m.</h5>
+        <h5>From Monday to Friday</h5>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h6>Indira Gandhi Delhi Technical University for Women</h6>
+        <hr class="light">
+        <h6>Kashmere Gate, Delhi</h6>
+        <h6>110006</h6>
+      </div>
+      <div class="col-12">
+        <hr class="light-100">
+        <h5>&copy; anushaSaysHI.com</h5>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
