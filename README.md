@@ -37,7 +37,7 @@ This Repository focuses on providing study material and resources for Web Deveop
       <p align ="center">
         <code><img src="https://img.icons8.com/color/48/000000/html-5.png"/></code>
         <code><img src="https://img.icons8.com/color/48/000000/css3.png"/></code>
-        <code><img src="/README_images/download.png" width="4%"/></code>
+        <code><img src="/README_images/download.png" width="5%"/></code>
         <code><img src="https://img.icons8.com/color/50/000000/bootstrap.png"/></code>
         <code><img src="https://img.icons8.com/color/64/fa314a/figma.png" width="5%"/></code>
         <code><img src="https://img.icons8.com/color/64/000000/git.png" width="5%"/></code>
