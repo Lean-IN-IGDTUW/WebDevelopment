@@ -240,6 +240,12 @@ This Repository focuses on providing study material and resources for Web Deveop
         </a>
     </td>
     <td align="center">
+        <a href = "https://github.com/KaizenGirl1111" style = "text-align:center">
+            <img src = "https://avatars.githubusercontent.com/u/73153808?v=4" width="200px;">
+            </br><sub><b>Avni Uplabdhee</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href = "https://github.com/maneet057" style = "text-align:center">
             <img src = "https://avatars.githubusercontent.com/u/77922626?v=4" width="200px;">
             </br><sub><b>Maneet Kaur</b></sub>
@@ -251,15 +257,15 @@ This Repository focuses on providing study material and resources for Web Deveop
             </br><sub><b>Mansi Mandal</b></sub>
         </a>
     </td>
+  </tr>
+
+  <tr>
     <td align="center">
         <a href = "https://github.com/Navya32" style = "text-align:center">
             <img src = "https://avatars.githubusercontent.com/u/72815394?v=4" width="200px;">
             </br><sub><b>Navya Gupta</b></sub>
         </a>
     </td>
-  </tr>
-
-  <tr>
     <td align="center">
         <a href = "https://github.com/PunervaSingh" style = "text-align:center">
             <img src = "https://avatars.githubusercontent.com/u/79405229?v=4" width="200px;">
