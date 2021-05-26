@@ -284,6 +284,12 @@ This Repository focuses on providing study material and resources for Web Deveop
             </br><sub><b>Sakshi Pandey</b></sub>
         </a>
     </td>
+    <td align="center">
+        <a href = "https://github.com/riddhic15" style = "text-align:center">
+            <img src = "https://avatars.githubusercontent.com/u/58457452?v=4" width="200px;">
+            </br><sub><b>Riddhi Chaudhary</b></sub>
+        </a>
+    </td>
   </tr>
 </table>
 
