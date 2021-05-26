@@ -1,0 +1,239 @@
+body{
+    background-image: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2017/06/the_future_of_the_orion_constellation/16980810-1-eng-GB/The_future_of_the_Orion_constellation_pillars.jpg');
+}
+#namee{
+    text-shadow: none;
+}
+.display-1 {
+    /* font-size: 80px; */
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow:0 0 5px #adbed6, 0 0 5px #adb0ab;
+    }
+    
+  
+  }
+  h5{
+    font-family: 'Gentium Basic', serif;
+    
+  }
+    /* font-family: 'Cookie', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Great Vibes', cursive; */
+
+/* font-family: 'Gentium Basic', serif; */
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Merienda One', cursive; */
+    /* font-family: 'Playfair Display SC', serif; */
+    /* font-family: 'Nanum Myeongjo', serif */
+.display-1{
+    /* font-family: 'Cookie', cursive;
+     */
+     /* font-family: 'Great Vibes', cursive; */
+     font-family: 'Cinzel', serif; 
+     
+}
+.nav-item .nav-link a{
+    font-family: 'Cookie', cursive;
+}
+p,li,figcaption{
+    /* font-family: 'Gentium Basic', serif; */
+    font-family: 'Nanum Myeongjo', serif;
+}
+.card{
+    border:#adb0ab;
+    border-style: outset;
+
+  }
+  .card:hover{
+      box-shadow:1px 1px 1px 1px rgb(238, 226, 226);
+  }
+
+#logo{
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    font-size: 1rem;
+  }
+
+  h3{
+    color: grey;
+    text-align: center !important;
+  }
+p strong {
+    margin-top: 15px !important;
+    color: rgb(173, 190, 214) !important;
+    text-align: center !important;
+}
+
+.card-title{
+    position: relative;
+}
+.card-title:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.card-title:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .bottom{
+      margin-top: 50px !important;
+  }
+  .education li{
+      font-size: 40px;
+      color:C;
+      margin-top: 15px;
+      color: rgb(173,190,214);
+  }
+  .education strong{
+      color: rgb(218, 166, 166) !important;
+      margin-top: 7px;
+  }
+  .education p{
+      color:white;
+      margin-top: 5px;
+  }
+  .carimg{
+      /* border-radius: 50%; */
+      /* width:400px !important; */
+      margin-top: 25px !important;
+      height:450px !important;
+      width: auto !important;
+
+  }
+  .card-deck{
+      margin-top: 20px !important;
+      margin-bottom: 20px;
+  }
+
+  .card h5{
+      color:#adbed6 ;
+      margin-top: 30px !important;
+      text-align: center !important;
+  }
+  .carousel-item p{
+      text-align: center !important;
+      color:#daa6a6;
+      font-family: 'Gentium Basic', serif !important;
+
+
+  }
+  .carousel-control-prev-icon {
+      position: relative;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23daa6a6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+    position: relative;
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23daa6a6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+   .carousel-indicators {
+    bottom: 20%;
+    
+}
+  .figure-caption{
+      text-align: center;
+      color: black;
+      font-weight: bolder;
+      font-family: 'Playfair Display SC', serif !important;
+  }
+  .card .card-text{
+      color:rgb(218, 166, 166)!important;
+      font-weight: 700;
+  }
+  a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+  .bn{
+      margin: 0 auto;
+      text-align: center;
+      position: fixed;
+      display: none;
+  }
+button{
+    align-self: center !important;
+}
+.fa {  
+    padding: 40px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .sociallinks li{
+    display: inline-block;
+    text-align: center;
+    margin: 35px 5px 25px 5px;
+    text-align: center;
+}
+.fa {
+    color: white;
+ 
+    /* text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%; */
+  }
+
+
+  .fa:hover {  
+      opacity: 0.9; 
+      text-decoration: dotted; 
+      color: #adbed6;
+  }  
+  .social-links li{
+      display: inline !important;
+  }
+label{
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Gentium Basic, cursive' */
+    /* font-family:'Nanum Myeongjo', serif
+     ; */
+    
+}
+#sphead{
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+#sportspara{
+    font-size: 2vw;
+    font-family: 'Nanum Myeongjo', serif;
+    color:#8ea0b9 !important;
+    font-weight: 900;
+
+}
+
+@media screen and (max-width:576px){
+
+     .view{
+        width:150px;
+        margin: 0 auto;
+    }
+
+
+} 
+.social{
+    text-align: center;
+}
+
